@@ -1,0 +1,6 @@
+{
+  "title": "QA sample: image",
+  "description": "Runs a public nginx image as it is.",
+  "image": "docker.io/nginxinc/nginx-unprivileged:1.27",
+  "app": {"port": 8080}
+}

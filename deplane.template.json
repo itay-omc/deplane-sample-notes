@@ -1,0 +1,7 @@
+{
+  "title": "QA sample: bad",
+  "app": {
+    "port": 80,
+    "env": {"API_TOKEN": "written-in-the-file"}
+  }
+}

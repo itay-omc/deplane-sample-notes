@@ -1,0 +1,16 @@
+{
+  "title": "QA sample: notes",
+  "description": "A tiny Node app that shows the variables Deplane set for it.",
+  "app": {
+    "port": 3000,
+    "health": "/healthz",
+    "env": {
+      "SECRET_KEY": "${secret:32}",
+      "DB_URL": "${postgres.url}",
+      "PUBLIC_URL": "${app.url}"
+    }
+  },
+  "postgres": {"size": "small"},
+  "note": "Open the URL: it shows which variables are set, never their values.",
+  "warning": "QA sample: nothing to sign in to."
+}
